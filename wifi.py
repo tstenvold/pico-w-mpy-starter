@@ -6,7 +6,7 @@ import json
 def _load_wifi_info(path):
     with open(path) as fp:
         data = json.loads(fp.read())
-        if data["ssid"] and data["ssid"]:
+        if data["ssid"] and data["password"]:
             return data["ssid"], data["password"]
         else:
             raise ValueError("No ssid or password in config file")
