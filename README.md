@@ -3,7 +3,7 @@
 This is a project starter for Pico W using MicroPython. It is a simple 
 framework for creating a Pico W project that connect to a Wi-Fi network.
 
-##Getting Started
+## Getting Started
 
 ### Clone This Repository
 
@@ -29,7 +29,7 @@ file should contain the following information:
 }
 ```
 
-**-! - Attention - ! -** 
+**- ! - Attention - ! -** 
 
 *This file is not included in the repository to prevent users from 
 accidentally committing this file to the repository with their own Wifi 
@@ -52,3 +52,6 @@ I've used the same BSD 3-clause license.
 
 ### Issues and Contributions
 Please report any issues or feature requests to [github](https://github.com/tstenvold/pico-w-mpy-starter/issues)
+
+### More Info
+You can find more information about development on the Pico W from the official sources [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico) and [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
